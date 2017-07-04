@@ -1,7 +1,7 @@
 var expect  = require("chai").expect;
 var request = require("request");
 
-var url = "http://localhost:8711/api/issues/pierdav/hubtest";
+var url = "http://localhost:8711/api/issues/pierdav";
 var counter = 0;
 function _run(done)
 { 
