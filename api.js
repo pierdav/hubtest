@@ -50,7 +50,7 @@ module.exports = (function() {
 				{
 					if(i1.tags[i] != i2.tags[i])
 					{
-						return i1.tags[0] > i2.tags[0];
+						return i1.tags[i] > i2.tags[i];
 					}
 				}
 			});
