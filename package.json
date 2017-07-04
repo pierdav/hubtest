@@ -5,13 +5,13 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "chai": "^4.0.2",
     "express": "^4.15.3",
-    "github": "^9.2.0",
-    "mocha": "^3.4.2",
     "octonode": "^0.7.13"
   },
-  "devDependencies": {},
+  "devDependencies": {
+	"chai": "^4.0.2",
+	"mocha": "^3.4.2"
+  },
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
